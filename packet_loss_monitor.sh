@@ -14,7 +14,7 @@ WEBHOOK_URL="${WEBHOOK_BASE_URL}${WEBHOOK_ID}"
 #Config
 TARGET="8.8.8.8"
 THRESHOLD=0
-SLEEP_INTERVAL=10   #in seconds
+SLEEP_INTERVAL=30   #in seconds
 
 send_discord_message(){
     local message=$1

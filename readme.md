@@ -1,4 +1,4 @@
-# LossLess-Liaison (or your chosen name)
+# LossLess-Liaison
 
 ## Overview
 
@@ -11,6 +11,11 @@ I personally use this tool to keep track of network stability and receive immedi
 - Monitors packet loss to a specified target IP or hostname.
 - Sends alerts to a Discord channel when packet loss exceeds a defined threshold.
 - Configurable monitoring interval.
+
+## Features To Add
+
+- auto configuration script
+- better packet loss detection tool (ping versus other .deb stable pkgs)
   
 ## Requirements
 
