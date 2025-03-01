@@ -13,8 +13,8 @@ WEBHOOK_URL="${WEBHOOK_BASE_URL}${WEBHOOK_ID}"
 
 #config
 TARGET="8.8.8.8"
-THRESHOLD=0
-SLEEP_INTERVAL=90   #in seconds
+THRESHOLD=1
+SLEEP_INTERVAL=100   #in seconds
 PACKETS_TO_SEND=100
 
 send_discord_message(){
